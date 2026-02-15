@@ -14,5 +14,11 @@ This project makes use of the following open-source technologies and tools:
 +  Hugging Face Transformers: A library used to access pretrained models and weights. It was predominantly employed to load models and conduct further training in the optimization section of this project.
 +  Transformer: A library used to simplify the process of applying inference optimizations to the models.
 
+## Data
+This project makes use of the following open-source data:
+
++  HIPAA 45:  Title 45 of the Code of Federal Regulations, which contains the administrative simplification rules governing health information privacy and security.
++  NIST 800-53 Rev 5: a comprehensive catalog of security and privacy controls designed to help organizations manage risk and protect information systems
+
 ##  LoRA (Low-Rank Adaptation)
-LoRA (Low-Rank Adaptation) is a fine-tuning technique designed to preserve high model accuracy while significantly reducing computational cost and complexity. Instead of updating all model parameters, LoRA injects small, low-rank adaptation matrices into selected layers, keeping the original pretrained weights frozen. This approach dramatically reduces the number of trainable parameters, enabling more efficient training, lower memory usage, and faster experimentation—without sacrificing performance.
+LoRA (Low-Rank Adaptation) is a fine-tuning technique designed to preserve high model accuracy while significantly reducing computational cost and complexity. Instead of updating all model parameters, LoRA injects small, low-rank adaptation matrices into selected layers, keeping the original pretrained weights frozen. This approach dramatically reduces the number of trainable parameters, enabling more efficient training, lower memory usage, and faster experimentation—without sacrificing performance
