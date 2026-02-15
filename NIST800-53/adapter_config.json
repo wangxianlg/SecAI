@@ -1,8 +1,8 @@
 {
-    "adapter_path": "adapters-ai-governance-single",
+    "adapter_path": "adapters-NIST800-53-single",
     "batch_size": 1,
     "config": null,
-    "data": "data-ai-governance-single",
+    "data": "data-NIST800-53-single",
     "fine_tune_type": "lora",
     "grad_accumulation_steps": 1,
     "grad_checkpoint": true,
