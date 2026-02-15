@@ -1,0 +1,15 @@
+## SecAI - Training Cyber-Focused AI Models to Solve Complex Security & Compliance Challenges
+
+When accuracy, consistency, and structural precision are non-negotiable, relying solely on prompt engineering with general-purpose models is a fundamentally limited approach. In mission-critical enterprise environments, specialized Cyber-Focused AI models offer a more strategic solution—delivering higher accuracy, stronger reliability, and greater operational efficiency.
+
+
+## Technologies
+This project makes use of the following open-source technologies and tools:
+
++  Python: The programming language used for implementing the project.
++  NumPy: A library used for efficient multi-dimensional data operations where PyTorch tensors aren't suitable.
++  Pandas: A library used for cleaning, transforming, and exploring the data prior to model fine-tuning.
++  PyTorch: A library used to build the BERT and LoRA models from scratch and for fine-tuning.
++  TensorFlow: open-source platform for machine learning (ML) and artificial intelligence
++  Hugging Face Transformers: A library used to access pretrained models and weights. It was predominantly employed to load models and conduct further training in the optimization section of this project.
++  Transformer: A library used to simplify the process of applying inference optimizations to the models.
