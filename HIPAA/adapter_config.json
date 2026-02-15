@@ -1,8 +1,8 @@
 {
-    "adapter_path": "adapters-cloud-matrix-single",
+    "adapter_path": "adapters-HIPAA-single",
     "batch_size": 1,
     "config": null,
-    "data": "data-cloud-matrix-single",
+    "data": "data-HIPAA-single",
     "fine_tune_type": "lora",
     "grad_accumulation_steps": 1,
     "grad_checkpoint": true,
