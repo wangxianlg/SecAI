@@ -4,7 +4,7 @@ When accuracy, consistency, and structural precision are non-negotiable, relying
 
 
 ## Technologies
-This project makes use of the following open-source technologies and tools:
+This project uses the following open-source technologies and tools:
 
 +  Python: The programming language used for implementing the project.
 +  NumPy: A library used for efficient multi-dimensional data operations where PyTorch tensors aren't suitable.
@@ -15,10 +15,10 @@ This project makes use of the following open-source technologies and tools:
 +  Transformer: A library used to simplify the process of applying inference optimizations to the models.
 
 ## Data
-This project makes use of the following open-source data:
+This project uses of the following open-source data:
 
 +  HIPAA 45:  Title 45 of the Code of Federal Regulations, which contains the administrative simplification rules governing health information privacy and security.
-+  NIST 800-53 Rev 5: a comprehensive catalog of security and privacy controls designed to help organizations manage risk and protect information systems
++  NIST 800-53 Rev 5: A comprehensive catalog of security and privacy controls designed to help organizations manage risk and protect information systems
 
 ##  LoRA (Low-Rank Adaptation)
 LoRA (Low-Rank Adaptation) is a fine-tuning technique designed to preserve high model accuracy while significantly reducing computational cost and complexity. Instead of updating all model parameters, LoRA injects small, low-rank adaptation matrices into selected layers, keeping the original pretrained weights frozen. This approach dramatically reduces the number of trainable parameters, enabling more efficient training, lower memory usage, and faster experimentation—without sacrificing performance
