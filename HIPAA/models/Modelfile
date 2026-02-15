@@ -1,0 +1,1 @@
+FROM ./HIPAA-single/HIPAA.gguf
